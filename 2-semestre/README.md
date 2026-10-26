@@ -1,3 +1,3 @@
-# UCSAL ADS
+# 2º semestre
 
-NADA AQUI...
+Em andamento. As atividades serão adicionadas aqui ao longo do semestre, seguindo a mesma organização do [1º semestre](../1-semestre/LPA).
