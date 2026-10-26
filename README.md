@@ -34,7 +34,7 @@ java NomeDaClasse
 
 ## Créditos
 
-Atividades feitas em dupla creditam o colega no README da atividade e via `Co-authored-by` nos commits.
+Atividades feitas em dupla têm o colega creditado como colaborador do repositório, no README da atividade e via `Co-authored-by` nos commits.
 
 ## Projeto em destaque
 
