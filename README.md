@@ -4,20 +4,37 @@ Repositório com as atividades, exercícios e projetos desenvolvidos ao longo do
 
 ## Estrutura
 
-Organização por **semestre > disciplina > tipo de atividade**:
+Organização por **semestre > disciplina > tipo de atividade**. Cada atividade tem um `README.md` com o enunciado e o código Java em `src/`.
 
 ```
 1-semestre/
 └── LPA/
-    ├── atividades-individuais/   → exercícios feitos sozinho
-    └── atividades-em-dupla/      → atividades feitas em dupla em sala
+    ├── atividades-individuais/
+    │   ├── 01-contador-pares-impares/
+    │   ├── 02-lista-condicional/
+    │   └── 03-revisao-modulos-vetores/
+    └── atividades-em-dupla/
+        ├── 01-modulos-soma-subtracao/
+        ├── 02-modulos-com-retorno/
+        └── 03-leia-dados-funcionario/
 2-semestre/
 └── (em andamento)
 ```
 
+Índice com links e assuntos de cada atividade: [1-semestre/LPA](1-semestre/LPA).
+
+## Como executar
+
+Precisa de um JDK (17 ou mais recente). Dentro da pasta `src/` de uma atividade:
+
+```bash
+javac -encoding UTF-8 *.java
+java NomeDaClasse
+```
+
 ## Créditos
 
-Atividades feitas em dupla têm o colega creditado como colaborador oficial do repositório e via `Co-authored-by` nos commits, além de mencionado no README da respectiva atividade.
+Atividades feitas em dupla creditam o colega no README da atividade e via `Co-authored-by` nos commits.
 
 ## Projeto em destaque
 
