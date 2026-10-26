@@ -1,5 +1,3 @@
-package Lista1_Condicional;
-
 import java.util.Scanner;
 
 public class L1_Q1 {

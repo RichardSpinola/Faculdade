@@ -1,7 +1,6 @@
-package Revisão_Modulos_e_Vetores;
 import java.util.Scanner;
 
-public class ePar {
+public class ParImpar {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         boolean par;

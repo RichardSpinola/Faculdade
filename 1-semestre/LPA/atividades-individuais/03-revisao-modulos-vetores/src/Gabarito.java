@@ -1,4 +1,3 @@
-package Revisão_Modulos_e_Vetores;
 import java.util.Scanner;
 
 public class Gabarito {

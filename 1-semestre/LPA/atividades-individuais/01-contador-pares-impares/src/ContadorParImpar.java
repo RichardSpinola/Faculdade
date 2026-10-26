@@ -1,7 +1,6 @@
-package Exercicios;
 import java.util.Scanner;
 
-public class Contador_PI {
+public class ContadorParImpar {
     public static void main(String[] args){
         double par, impar, num, medial;
         int contadorP, contadorI;
@@ -26,17 +25,16 @@ public class Contador_PI {
                 contadorI++;
                 impar = num + impar;
             }
-        }while( contadorP < 10);
-        {
-            System.out.println("\n----------------- Resultados --------------");
-            System.out.println("A soma total dos numeros Pares foi de: " + par);
+        } while (contadorP < 10);
 
-            if (contadorI > 0) {
-                medial = impar / contadorI;
-                System.out.println("E a media dos numeros impares foram de: " + medial);
-            } else {
-                System.out.println("Nenhum numero impar foi encontrado!");
-            }
+        System.out.println("\n----------------- Resultados --------------");
+        System.out.println("A soma total dos numeros Pares foi de: " + par);
+
+        if (contadorI > 0) {
+            medial = impar / contadorI;
+            System.out.println("E a media dos numeros impares foram de: " + medial);
+        } else {
+            System.out.println("Nenhum numero impar foi encontrado!");
         }
 
     }
